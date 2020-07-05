@@ -1,0 +1,119 @@
+#dialogoverlay{
+	display: none;
+	opacity: .8;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: #FFF;
+	width: 100%;
+	z-index: 10;
+}
+#dialogbox{
+	display: none;
+	position: fixed;
+	top:25%;
+	left:25%;
+	background: #00853f;
+	border-radius:7px;
+	width:450px;
+	z-index: 10;
+}
+.popupbtnok{
+	position: relative;
+	    display: inline-block;
+	    zoom: 1;
+	    background-color: #00853f;
+	    border-radius: 3px;
+	    border-bottom-left-radius: 3px;
+	    border-top-left-radius: 3px;
+	    border-top-right-radius: 3px;
+	    border-bottom-right-radius: 3px;
+	    -webkit-border-radius: 3px 3px 3px 3px;
+	    -moz-border-radius: 3px 3px 3px 3px;
+	    border: 0 solid #000;
+	    text-indent: 0;
+	    color: #fff;
+	    font-family: Arial;
+	    font-size: 14px;
+	    font-weight: bold;
+	    font-style: normal;
+	    text-decoration: none;
+	    text-align: center;
+	    padding: 6px 15px;
+	    -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.16);
+	    -moz-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.16);
+	    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.16);
+	    vertical-align: middle;
+	    cursor: pointer;
+	    z-index: 1;
+	    behavior: url(/static/js/PIE.htc);
+	    min-width: 110px;
+}
+.popupbtncancel{
+	position: relative;
+    display: inline-block;
+    zoom: 1;
+    background-color: #fff;
+    border-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    border: 0 solid #00853f;
+    border-style: solid;
+    border-width: 1px;
+    text-indent: 0;
+    color: #00853f;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    padding: 6px 15px;
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.16);
+    -moz-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.16);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.16);
+    vertical-align: middle;
+    cursor: pointer;
+    z-index: 1;
+    behavior: url(/static/js/PIE.htc);
+    min-width: 110px;
+}
+@media screen and (min-width: 350px) {
+
+		#dialogoverlay{
+		display: none;
+		opacity: .8;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		background: #FFF;
+		width: 100%;
+		z-index: 10;
+	}
+
+	#dialogbox {
+		display: none;
+		position: absolute;
+		top: 25%;
+		left: 10%;
+		background: #00853f;
+		border-radius: 5px;
+		width: 50%;
+		z-index: 10
+}
+#dialogbox > div > #dialogboxbody{ background: #ffffff; padding:250px; color:#black; text-align:center;font-size:15px;font-family: arial;}
+	#dialogbox > div > #dialogboxfoot{ background: #ffffff; padding:4px; text-align:center; }
+}
+
+#dialogbox > div{ background:#FFF; margin:2px; }
+#dialogbox > div > #dialogboxbody{ background: #ffffff; padding:40px; color:#black; text-align:center;font-size:19px;font-family: arial;}
+#dialogbox > div > #dialogboxfoot{ background: #ffffff; padding:8px; text-align:center; }
+
+}
+#dialogbox > div{ background:#FFF; margin:2px; }
+#dialogbox > div > #dialogboxbody{ background: ##ffffff; padding:40px; color:#black; text-align:center;font-size:19px;font-family: arial;}
+#dialogbox > div > #dialogboxfoot{ background: ##ffffff; padding:8px; text-align:center; }
